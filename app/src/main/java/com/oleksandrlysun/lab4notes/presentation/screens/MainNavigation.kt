@@ -9,11 +9,11 @@ class MainNavigation(private val navController: NavController) {
 
     }
 
-    fun toSignUp() {
+    fun signInToSignUp() {
         navController.navigate(R.id.action_signInFragment_to_signUpFragment)
     }
 
-    fun toNotes() {
-
+    fun signInToNotes() {
+        navController.navigate(R.id.action_signInFragment_to_notesFragment)
     }
 }

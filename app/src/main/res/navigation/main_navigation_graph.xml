@@ -13,6 +13,9 @@
 		<action
 			android:id="@+id/action_signInFragment_to_signUpFragment"
 			app:destination="@id/signUpFragment" />
+		<action
+			android:id="@+id/action_signInFragment_to_notesFragment"
+			app:destination="@id/notesFragment" />
 	</fragment>
 
 	<fragment
@@ -20,4 +23,10 @@
 		android:name="com.oleksandrlysun.lab4notes.presentation.screens.signup.SignUpFragment"
 		android:label="Sing up"
 		tools:layout="@layout/fragment_sign_up" />
+
+	<fragment
+		android:id="@+id/notesFragment"
+		android:name="com.oleksandrlysun.lab4notes.presentation.screens.notes.NotesFragment"
+		android:label="Notes"
+		tools:layout="@layout/fragment_notes" />
 </navigation>

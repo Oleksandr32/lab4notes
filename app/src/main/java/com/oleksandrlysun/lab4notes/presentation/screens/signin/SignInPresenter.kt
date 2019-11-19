@@ -5,11 +5,11 @@ import com.oleksandrlysun.lab4notes.presentation.screens.MainNavigation
 class SignInPresenter(private val navigation: MainNavigation) {
 
     fun signUp() {
-        navigation.toSignUp()
+        navigation.signInToSignUp()
     }
 
     fun skipSignIn() {
-        navigation.toNotes()
+        navigation.signInToNotes()
     }
 
     fun signIn(username: String, password: String) {
